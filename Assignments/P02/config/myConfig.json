@@ -1,0 +1,33 @@
+{
+    "client_id": "sgtrock",
+    "min_jobs": 2,
+    "max_jobs": 5,
+    "min_bursts": 5,
+    "max_bursts": 10,
+    "min_job_interval": 1,
+    "max_job_interval": 5,
+    "burst_type_ratio": 0.5,
+    "min_cpu_burst_interval": 5,
+    "max_cpu_burst_interval": 10,
+    "min_io_burst_interval": 1,
+    "max_io_burst_interval": 5,
+    "min_ts_interval": 5,
+    "max_ts_interval": 5,
+    "time_quantum": 4,
+    "priority_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "TimeQuantums": [
+        2,
+        3,
+        6,
+        7,
+        10
+    ],
+    "AgingThreshold": 8,
+    "base_url": "http://profgriffin.com:8000"
+}
