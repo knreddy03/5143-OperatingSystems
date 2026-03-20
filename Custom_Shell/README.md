@@ -21,7 +21,7 @@ It behaves like a **mini virtual operating system** file manager accessible thro
 ## 📂 Project Structure
 
 ```
-P01/
+Custom_Shell/
 │
 ├── config/                 # Configuration handling (.config file logic)
 │
